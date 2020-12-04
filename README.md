@@ -24,7 +24,9 @@ pip install –trusted-host files.pythonhosted.org –trusted-host pypi.org –t
 Depending on your python version, you must write:
 
 python3 DetectColor.py -i <image-path>  (for version 3+) 
- or
+
+or
+
 python DetectColor.py -i <image-path>  
 
 ![](TerminalImages/TerminalSS1.png)
