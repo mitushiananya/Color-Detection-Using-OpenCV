@@ -6,29 +6,29 @@ Important notes before you start
 3. Install all the libraries and APIs required. In this program we will need, OpenCV and Pandas. I also installed NumPy just to get safe. 
 Install writing this in your terminal: 
 
-pip install opencv-python numpy pandas
+`pip install opencv-python numpy pandas`
 
 ![](TerminalImages/TerminalSS2.png) 
 
 If you get an error during the installation of the libraries then make sure you upgrade pip.
 
-If you get the following error: 
-Could not fetch URL https://pypi.python.org/simple/opencv-python/: There was a problem confirming the ssl certificate: [SSL: TLSV1_ALERT_PROTOCOL_VERSION] tlsv1 alert protocol version (_ssl.c:661) - skipping Could not find a version that satisfies the requirement opencv-python (from versions: ) No matching distribution found for opencv-python
+`If you get the following error: 
+Could not fetch URL https://pypi.python.org/simple/opencv-python/: There was a problem confirming the ssl certificate: [SSL: TLSV1_ALERT_PROTOCOL_VERSION] tlsv1 alert protocol version (_ssl.c:661) - skipping Could not find a version that satisfies the requirement opencv-python (from versions: ) No matching distribution found for opencv-python`
 
 Then write the following in your terminal:
 
-pip install –trusted-host files.pythonhosted.org –trusted-host pypi.org –trusted-host pypi-python.org bs4
+`pip install –trusted-host files.pythonhosted.org –trusted-host pypi.org –trusted-host pypi-python.org bs4`
 
 ![](TerminalImages/TerminalSS3.png) 
 
 4. Running the program: 
 Depending on your python version, you must write:
 
-python3 DetectColor.py -i < image-path >  (for version 3+) 
+`python3 DetectColor.py -i < image-path >  (for version 3+)`
 
 or
 
-python DetectColor.py -i < image-path >  
+`python DetectColor.py -i < image-path >` 
 
 ![](TerminalImages/TerminalSS1.png)
 
